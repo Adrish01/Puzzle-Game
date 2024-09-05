@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reading Chatbot Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="chatbox">
+            <p id="botMessage">Hye buddy! Let's play a game. I can read your mind by asking you a few questions... Are you Ready?</p>
+        </div>
+        <div id="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="gameSection" style="display: none;">
+            <button id="startGameButton">Start Game</button>
+        </div>
+        <div id="nextStep" style="display: none;">
+            <button id="nextButton">OK</button>
+        </div>
+        <div id="finalStep" style="display: none;">
+            <button id="doneButton">DONE</button>
+        </div>
+        <div id="tellButtonSection" style="display: none;">
+            <button id="tellButton">Tell</button>
+        </div>
+        <div id="ratingSection" style="display: none;">
+            <p>Give me some rating out of 5:</p>
+            <input type="number" id="ratingInput" min="0" max="5">
+            <button id="submitRatingButton">Submit Rating</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
